@@ -7,6 +7,7 @@
 
         </h5>
         <p id="kashan"></p>
+         <button onclick="add (8,87)" > Execute</button>
         <script>
             var msg='welcome to my website'
             document.write(msg.toUpperCase());
@@ -37,7 +38,10 @@ switch(new Date().getDay()) {
          break
           case 6:day='saturday'
 }
-document.getElementById('kashan').innerHTML='today day is'+day
+document.getElementById('kashan').innerHTML='today day is'+day;
+function add(x,y){
+    document.write('addition is'+(x+y));
+}
 
         </script>
     </body>
